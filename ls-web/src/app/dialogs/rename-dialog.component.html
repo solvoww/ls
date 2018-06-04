@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>Zmiana nazwy</h1>
+<div mat-dialog-content>
+     
+	<mat-form-field>
+		<input matInput [(ngModel)]="data.nameToModify" placeholder="Nowa nazwa">
+    </mat-form-field>     
+     
+     <br>
+     <button mat-raised-button [mat-dialog-close]="data.nameToModify" cdkFocusInitial>Wykonaj</button>
+     <button mat-raised-button (click)="onCancelClick()">Anuluj</button>
+</div>

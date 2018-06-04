@@ -1,0 +1,15 @@
+.pwd {
+	width: 100%;
+	border-bottom: solid 2px lightgray;
+	margin-bottom: 10px;
+}
+
+th {
+	background-color: lightgray;
+	padding-right: 10px !important;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}

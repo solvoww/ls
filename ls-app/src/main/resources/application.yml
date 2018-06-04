@@ -1,0 +1,10 @@
+server:
+  context-path: /
+  port: 2222
+
+ls-properties:
+    rootPath: c:/_SOLVO/TX/angular
+
+spring:
+  application:
+    name: ls-app
